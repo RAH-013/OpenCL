@@ -1,0 +1,14 @@
+services:
+  opencl-demo:
+    build:
+      context: .
+    image: opencl-cpp-demo:latest
+    container_name: opencl-vector-add
+    devices:
+      - /dev/dri:/dev/dri
+    environment:
+      RUSTICL_ENABLE: radeonsi
+    security_opt:
+      - label=disable
+    stdin_open: true
+    tty: true

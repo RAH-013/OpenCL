@@ -1,0 +1,47 @@
+
+# Compilación
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Binarios
+*.o
+*.a
+*.so
+*.out
+opencl-vector-add
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
+.cache/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Resultados generados
+benchmark-results/
+reports/
+*.csv
+*.json
